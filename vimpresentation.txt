@@ -1,0 +1,116 @@
+Preface
+
+Vim has a bit of a learning curve
+I will be covering beginner to intermediate tasks
+NOTE: Use Screenkey
+
+
+
+What is Vim?
+
+Vim or Vi Improved is a clone of Bill Joy's Vi text editor
+First released in 1991 for Unix systems
+Ubiquitous text editor that can be used on Unix, GNU/Linux, Windows, macOS, iOS, Android and pretty much any other modern operating system you could think of
+According to Stack Overflow's Developer Survey 2018, Vim is the 5th most popular development environment
+
+
+
+Why Vim?
+
+I'm tend to be lazy... efficient
+I hate using my mouse, pointing and clicking feels slow to me
+I love my keyboards (include photos)
+I like to stay in terminal as much as possible
+Vim is available everywhere, and I can easily bring my settings to whatever machine I'm working on
+Modal editing
+    - Modes include Normal, Insert, Visual, etc
+Little optimizations that make my life easier
+Vim is extensible
+Vim is fast
+Vim is magic
+
+
+
+Navigation in Vim
+
+hjkl
+{ to move to beginning of paragraph, } for end
+Ctrl-D to move down half a terminal, Ctrl-U for up
+[H]igh [M]iddle [L]ow
+zz to center line on terminal
+f to find character in line
+90G to go to line 90
+
+
+
+Text Objects
+
+[w]ords and [W]ords
+Paragraphs
+Lines, repeating characters to perform operation on entire line
+    - yy, dd, cc
+Repeating motions with numbers
+Uppercase to end of line
+    - D, C
+
+
+
+Can Vim do X?
+
+NOTE: Run vim without .vimrc for this section
+NOTE: Write a file to showcase these features
+Yes
+Spellcheck
+Split windows
+    - C-w S horizontal split
+    - C-w v vertical split
+    - C-w Q close split
+    - Launch vim with split, vim -o/O filename1 filename2
+Search and replace (g and gc)
+Jump to function definition
+Ctrl-P to autocomplete
+
+
+
+But can Vim do Y?
+
+NOTE: Write a file to showcase these features
+Yes, with plugins!
+Plugins are not absolutely necessary, but improve workflow
+NERDTree
+Syntastic/ALE
+Surround
+gc to toggle comments
+Vimify
+Google is your friend, there are plugins for everything
+
+
+
+What makes Vim *magic*?
+
+gg=G to autoindent entire file
+Ctrl+A to increment, Ctrl+X to decrement
+gu to change text object to all capitals
+Surround
+:bulkrename in ranger
+Running terminal commands
+    - Testing code simply
+    - Pulling data from standard output
+Macros
+!tac to flip lines
+
+
+
+How can I make Vim more /comfy/?
+
+You can edit your configuration file
+Version control, use GitHub to keep track of changes
+If you want to grab mine you can! git clone https://GitHub.com/RewoundVHS/dotfiles
+
+
+
+Okay, you've convinced me to give it a try! How do I start learning Vim?
+
+Run vimtutor. This takes about 30 minutes to complete and is available on all machines that have Vim installed.
+Ask me for help!
+I'd be more than happy to help you learn Vim and answer any questions you might have about the editor. Just as long as you stop using Nano ;)

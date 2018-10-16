@@ -1,0 +1,15 @@
+This is an example of a text file in Vim
+Navigate with hjkl
+
+[w]ords differ from [W]ords
+You can perform operations on text objects such as [d]elete and [c]hange
+Inner to perform operation from beginning to the end of a word
+[y]ank, [d]elete, and [c]hange words and lines
+change.word.there and change.Word.here
+
+Paragraph navigation is performed with { and }
+Paragraphs are defined as unseparated blocks of text
+These 3 lines could be considered a paragraph
+You can perform operations on paragraphs as well
+
+You might want to use spellchekc 
