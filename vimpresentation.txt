@@ -17,9 +17,9 @@ According to Stack Overflow's Developer Survey 2018, Vim is the 5th most popular
 
 Why Vim?
 
+I've been using Vim for about a year now
 I'm tend to be lazy... efficient
 I hate using my mouse, pointing and clicking feels slow to me
-I love my keyboards (include photos)
 I like to stay in terminal as much as possible
 Vim is available everywhere, and I can easily bring my settings to whatever machine I'm working on
 Modal editing
@@ -81,7 +81,6 @@ NERDTree
 Syntastic/ALE
 Surround
 gc to toggle comments
-Vimify
 Google is your friend, there are plugins for everything
 
 
@@ -98,6 +97,7 @@ Running terminal commands
     - Pulling data from standard output
 Macros
 !tac to flip lines
+Vimify
 
 
 
